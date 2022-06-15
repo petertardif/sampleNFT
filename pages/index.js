@@ -204,6 +204,7 @@ export default function Home() {
 				}
 			}, 5 * 1000);
 		}
+		// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, [walletConnected]);
 
 	const renderButton = () => {
@@ -230,7 +231,9 @@ export default function Home() {
 		if (!presaleStarted) {
 			return (
 				<div>
-					<div className={styles.description}>Presale hasn't started yet.</div>
+					<div className={styles.description}>
+						Presale hasn&apost started yet.
+					</div>
 				</div>
 			);
 		}
