@@ -232,7 +232,7 @@ export default function Home() {
 			return (
 				<div>
 					<div className={styles.description}>
-						Presale hasn&apost started yet.
+						Presale hasn&apos;t started yet.
 					</div>
 				</div>
 			);
